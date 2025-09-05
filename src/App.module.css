@@ -27,3 +27,17 @@
   border-radius: 16px;
   overflow-y: auto;
 }
+
+.Footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 12px;
+  font-size: 14px;
+  color: gray;
+  border-top: 1px solid #ddd;
+}
+
+.Footer a {
+  color: inherit;
+  text-decoration: underline;
+}

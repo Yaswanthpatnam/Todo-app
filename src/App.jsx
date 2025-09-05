@@ -29,6 +29,21 @@ function App() {
           onDelete={todos.delete}
         />
       </div>
+
+      {/* Footer Section */}
+      <footer className={styles.Footer}>
+        <p>© {new Date().getFullYear()} To-Do App. All rights reserved.</p>
+        <p>
+          Licensed under the{" "}
+          <a
+            href="https://opensource.org/licenses/MIT"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            MIT License
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
